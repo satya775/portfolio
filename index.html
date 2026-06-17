@@ -1,0 +1,343 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Satya Prakash Singh — Portfolio</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,600;0,700;1,600&family=DM+Sans:wght@300;400;500;600&family=DM+Mono:wght@400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/portfolio/sytle.css">
+</head>
+<body>
+
+  <!-- CURSOR GLOW -->
+  <div class="cursor-glow" id="cursorGlow"></div>
+
+  <!-- ============ NAV ============ -->
+  <header class="nav" id="nav">
+    <div class="nav__inner">
+      <a href="#top" class="nav__logo">Portfolio<span></span></a>
+      <button class="nav__toggle" id="navToggle" aria-label="Toggle menu" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+      <ul class="nav__links" id="navLinks">
+        <li><a href="#about">About</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#experience">Experience</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </div>
+  </header>
+
+  <!-- ============ HERO ============ -->
+  <section class="hero" id="top">
+    <div class="hero__bg">
+      <div class="blob blob--1"></div>
+      <div class="blob blob--2"></div>
+      <div class="blob blob--3"></div>
+      <div class="grid-lines" id="gridLines"></div>
+    </div>
+
+    <div class="hero__inner">
+      <div class="hero__text">
+        <p class="eyebrow"><span class="eyebrow__dot"></span>Available for Internships &amp; Collaborations</p>
+        <h1 class="hero__name">SATYA<br>PRAKASH<br><em>SINGH</em></h1>
+        <p class="hero__role">AI &amp; Data Science Student &nbsp;·&nbsp; Full Stack Developer &nbsp;·&nbsp; Chess Player</p>
+
+        <div class="terminal">
+          <div class="terminal__bar">
+            <span></span><span></span><span></span>
+            <p>status.log</p>
+          </div>
+          <div class="terminal__body">
+            <span class="terminal__prompt">$</span>
+            <span id="typedText"></span><span class="terminal__cursor">|</span>
+          </div>
+        </div>
+
+        <div class="hero__cta">
+          <a href="#projects" class="btn btn--primary">View Projects</a>
+          <a href="#contact" class="btn btn--outline">Get in Touch</a>
+        </div>
+      </div>
+
+      <div class="hero__photo">
+        <div class="photo-wrap">
+          <div class="photo-ring photo-ring--1"></div>
+          <div class="photo-ring photo-ring--2"></div>
+          <img src="satya.jpg.jpeg" alt="Satya Prakash Singh" class="photo-img">
+        </div>
+       
+           
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="hero__scroll">
+      <span>Scroll</span>
+      <div class="hero__scroll-line"></div>
+    </div>
+  </section>
+
+  <!-- ============ ABOUT ============ -->
+  <section class="section" id="about">
+    <div class="section__inner section__inner--split">
+      <div class="section__head">
+        <p class="section__label">01 — About</p>
+        <h2 class="section__title">The Story<br><em>So Far</em></h2>
+      </div>
+      <div class="section__body">
+        <p>
+          I'm a B.Tech student specialising in <strong>Artificial Intelligence &amp; Data Science</strong>
+          at Arya College of Engineering &amp; IT, affiliated with Rajasthan Technical University —
+          2023–2027 batch, 8.1 CGPA.
+        </p>
+
+<p>
+  Passionate about transforming raw data into meaningful insights and building
+  technology that solves real-world problems. My journey started with curiosity
+  about how intelligent systems work, which gradually led me into data science,
+  machine learning, and software development.
+</p>
+
+<p>
+  During my internship at <strong>Sysslan IT Solutions</strong>, I worked on
+  real-world data analysis projects involving data cleaning, visualization,
+  exploratory analysis, and predictive modeling. This experience strengthened my
+  ability to approach problems analytically and build practical solutions using data.
+</p>
+
+<p>
+  Beyond academics, I continuously improve my skills through personal projects,
+  open-source learning, and problem-solving. Currently, I am focused on
+  <strong>Machine Learning, Data Science, Full-Stack Development, and DSA</strong>
+  to prepare myself for challenging software engineering and data-driven roles.
+</p>
+
+<ul class="traits">
+  <li>Problem Solver</li>
+  <li>Fast Learner</li>
+  <li>Team Player</li>
+</ul>
+        <ul class="traits">
+          <li>Curious</li><li>Competitive</li><li>Resourceful</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ SKILLS ============ -->
+  <section class="section section--tinted" id="skills">
+    <div class="section__inner section__inner--split">
+      <div class="section__head">
+        <p class="section__label">02 — Skills</p>
+        <h2 class="section__title">Tech<br><em>Stack</em></h2>
+      </div>
+      <div class="section__body">
+        <div class="skill-grid">
+          <div class="skill-card">
+            <div class="skill-card__icon">{ }</div>
+            <h3>Languages</h3>
+            <div class="chips">
+              <span>Python</span><span>C++</span><span>JavaScript</span><span>SQL</span><span>HTML/CSS</span>
+            </div>
+          </div>
+          <div class="skill-card">
+            <div class="skill-card__icon">⚛</div>
+            <h3>Full Stack</h3>
+            <div class="chips">
+              <span>React.js</span><span>Node.js</span><span>Express.js</span><span>MongoDB</span>
+            </div>
+          </div>
+          <div class="skill-card">
+            <div class="skill-card__icon">🧠</div>
+            <h3>Data &amp; ML</h3>
+            <div class="chips">
+              <span>Pandas</span><span>NumPy</span><span>scikit-learn</span><span>Matplotlib</span><span>Jupyter</span>
+            </div>
+          </div>
+          <div class="skill-card">
+            <div class="skill-card__icon">🛠</div>
+            <h3>Tools</h3>
+            <div class="chips">
+              <span>Linux / RHCSA</span><span>Git &amp; GitHub</span><span>Salesforce</span><span>VS Code</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="certs">
+          <p class="certs__label">Certifications</p>
+          <div class="cert-row">
+            <div class="cert-badge">🏅 Red Hat RHCSA</div>
+            <div class="cert-badge">🏅 Salesforce Programming Architecture</div>
+            <div class="cert-badge">🏅 Oracle Fusion Cloud</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ PROJECTS ============ -->
+  <section class="section" id="projects">
+  <div class="section__inner">
+    <div class="section__head section__head--center">
+      <p class="section__label">03 — Projects</p>
+      <h2 class="section__title">Works<br><em></em></h2>
+    </div>
+
+    <div class="projects">
+
+      <!-- Project 01 -->
+      <article class="pcard pcard--featured">
+        <div class="pcard__meta">
+          <span class="pcard__tag">Data Science · Internship</span>
+          <span class="pcard__num">01</span>
+        </div>
+
+        <h3 class="pcard__title">Indian Railways Route Analysis</h3>
+
+        <p class="pcard__desc">
+          Developed during my Data Science Internship at Sysslan IT Solutions.
+          Worked on data cleaning, exploratory data analysis, visualization,
+          feature engineering, and machine learning models to analyze Indian
+          Railways routes and predict journey times using historical datasets.
+        </p>
+
+        <div class="pcard__stack">
+          <span>Python</span>
+          <span>Pandas</span>
+          <span>NumPy</span>
+          <span>Matplotlib</span>
+          <span>Scikit-Learn</span>
+        </div>
+
+        <a href="https://github.com/satya775" target="_blank" rel="noopener" class="pcard__link">
+          View on GitHub <span>↗</span>
+        </a>
+      </article>
+
+      <!-- Project 02 -->
+      <article class="pcard">
+        <div class="pcard__meta">
+          <span class="pcard__tag">Machine Learning · Forecasting</span>
+          <span class="pcard__num">02</span>
+        </div>
+
+        <h3 class="pcard__title">Retail Sales Forecasting Dashboard</h3>
+
+        <p class="pcard__desc">
+          Built a machine learning powered retail sales forecasting system using
+          time-series analysis and predictive modeling. Created interactive
+          dashboards to forecast future sales trends, identify business
+          patterns, and support data-driven decision making.
+        </p>
+
+        <div class="pcard__stack">
+          <span>Python</span>
+          <span>Pandas</span>
+          <span>Scikit-Learn</span>
+          <span>Plotly</span>
+          <span>Kaggle</span>
+        </div>
+
+        <a href="https://github.com/satya775" target="_blank" rel="noopener" class="pcard__link">
+          View on GitHub <span>↗</span>
+        </a>
+      </article>
+
+    </div>
+  </div>
+</section>
+
+  <!-- ============ EXPERIENCE ============ -->
+  <section class="section section--tinted" id="experience">
+    <div class="section__inner section__inner--split">
+      <div class="section__head">
+        <p class="section__label">04 — Experience</p>
+        <h2 class="section__title">Journey<br><em>So Far</em></h2>
+      </div>
+      <div class="section__body">
+        <ul class="timeline">
+          <li class="timeline__item">
+            <div class="timeline__dot"></div>
+            <span class="timeline__date">2023 – 2027</span>
+            <h3>B.Tech — AI &amp; Data Science</h3>
+            <p>Arya College of Engineering &amp; IT, RTU &nbsp;·&nbsp; <strong>8.1 CGPA</strong></p>
+          </li>
+          <li class="timeline__item">
+            <div class="timeline__dot"></div>
+            <span class="timeline__date">Internship</span>
+            <h3>Data Science Intern</h3>
+            <p>Sysslan IT Solutions — end-to-end railway data analysis, EDA, visualisation, and a regression model predicting journey time.</p>
+          </li>
+          <li class="timeline__item">
+            <div class="timeline__dot"></div>
+            <span class="timeline__date">Hackathons</span>
+            <h3>Hack Arya Verse 2025 &nbsp;·&nbsp; Smart India Hackathon 2025</h3>
+            <p>Participated in two major hackathons, building solutions under time pressure.</p>
+          </li>
+          <li class="timeline__item">
+            <div class="timeline__dot"></div>
+            <span class="timeline__date">Achievement</span>
+            <h3>🏆 Gold Medal — BGMI Esports, College 2024</h3>
+            <p>Won gold at the college-level esports championship.</p>
+          </li>
+        </ul>
+
+        <a href="SP.pdf" class="btn btn--outline btn--small" download="Satya_Prakash_Singh_Resume.pdf">
+          ↓ &nbsp;Download Resume
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ CONTACT ============ -->
+  <section class="section" id="contact">
+    <div class="section__inner section__inner--split">
+      <div class="section__head">
+        <p class="section__label">05 — Contact</p>
+        <h2 class="section__title">Let's<br><em>Connect</em></h2>
+      </div>
+      <div class="section__body">
+        <p class="contact__intro">
+          Open to internships, collaborations, or just a chat about AI, code, or chess.
+        </p>
+
+       
+
+        <div class="socials">
+          <a href="mailto:spr494305@gmail.com" class="social-link">
+            <span class="social-link__icon">✉</span>
+            <span>spr494305@gmail.com</span>
+          </a>
+          <a href="https://github.com/satya775" class="social-link" target="_blank" rel="noopener">
+            <span class="social-link__icon">⌥</span>
+            <span>github.com/satya775</span>
+          </a>
+          <a href="https://www.linkedin.com/in/satya-prakash-singh-4b9565291" class="social-link" target="_blank" rel="noopener">
+            <span class="social-link__icon">in</span>
+            <span>LinkedIn Profile</span>
+          </a>
+          <a href="https://leetcode.com/u/satya778/" class="social-link" target="_blank" rel="noopener">
+            <span class="social-link__icon">LC</span>
+            <span>LeetCode</span>
+          </a>
+          <a href="http://naukri.com/code360/profile/6745600f-244f-4afb-afdf-78361b9629da" class="social-link" target="_blank" rel="noopener">
+            <span class="social-link__icon">CN</span>
+            <span>Code360</span>
+           </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <p>Designed &amp; built by <strong>Satya Prakash Singh</strong> &nbsp;·&nbsp; <span id="year"></span></p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
